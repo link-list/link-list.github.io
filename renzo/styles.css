@@ -2,15 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
 
 body{
-    height: 100svh;
-    width: 100%;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgb(30,3,46);
-background: linear-gradient(180deg, rgba(30,3,46,0.98) 10%, rgba(72,27,71,0.9) 55%, rgba(131,51,112,0.9) 80%, rgba(255,52,170,0.8) 100%);
-    margin: 0;
-    padding: 0;
+    background: linear-gradient(180deg, rgba(30,3,46,0.98) 10%, rgba(72,27,71,0.9) 55%, rgba(131,51,112,0.9) 80%, rgba(255,52,170,0.8) 100%);
     overflow: hidden;
 }
 
@@ -36,11 +33,24 @@ background: linear-gradient(180deg, rgba(30,3,46,0.98) 10%, rgba(72,27,71,0.9) 5
 }
 
 .app{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container{
+    margin-top: 100px;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 30px;
+    position: relative;
 }
 
 .logo{
@@ -129,7 +139,6 @@ i{
     background: radial-gradient(circle, rgba(15,0,19,0.8) 0%, rgba(55,21,52,1) 50%, rgb(119, 63, 107) 100%);
     width: 125px;
     height: 125px;
-    z-index: 100;
     border-radius: 100%;
 }
 

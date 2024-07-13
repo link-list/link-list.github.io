@@ -8,7 +8,7 @@ body{
     align-items: center;
     background: rgb(30,3,46);
     background: linear-gradient(180deg, rgba(30,3,46,0.98) 10%, rgba(72,27,71,0.9) 55%, rgba(131,51,112,0.9) 80%, rgba(255,52,170,0.8) 100%);
-    overflow: hidden;
+
 }
 
 *{
@@ -28,8 +28,15 @@ body{
     gap: 5px;
 } 
 
-.logo-text{
+.logo-card p{
     user-select: none;
+}
+
+.logo{
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    aspect-ratio: 1/1;
 }
 
 .app{
@@ -53,29 +60,7 @@ body{
     position: relative;
 }
 
-.logo{
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
-    aspect-ratio: 1/1;
-}
 
-ul{
-    list-style: none;
-    padding: 0;
-}
-
-li{
-    padding: 0 10px;
-}
-
-a{
-    text-decoration: none;
-}
-
-i{
-    font-size: 2em;
-}
 
 .icon-sm{
     font-size: 1.5em;
@@ -132,8 +117,8 @@ i{
 }
 
 .blue{
-    color: #2B9ED6;
     font-size: 38px;
+    color: #2B9ED6;
 }
 
 .red{
@@ -162,28 +147,24 @@ i{
 .roboto-big {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: normal;
     letter-spacing: 1px;
 }
 
 .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
     letter-spacing: 1px;
 }
 
 .roboto-light {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-style: normal;
     letter-spacing: 0.5px;
 }
 
 .poppins-big {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-style: normal;
     letter-spacing: 1px;
 }
 
@@ -197,7 +178,6 @@ i{
 .poppins-light {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    font-style: normal;
     letter-spacing: 0.5px;
 }
 

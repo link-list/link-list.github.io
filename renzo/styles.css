@@ -131,6 +131,22 @@ i{
     color: #35c035;
 }
 
+.blue{
+    color: #2B9ED6;
+    font-size: 38px;
+}
+
+.red{
+  font-size: 40px;
+  background: -moz-linear-gradient(195deg, #BA0095 0%, #F3A317 100%);
+  background: -webkit-linear-gradient(195deg, #BA0095 0%, #F3A317 100%);
+  background: linear-gradient(195deg, #BA0095 0%, #F3A317 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .moon{
     position: absolute;
     top: -50px;
@@ -183,4 +199,21 @@ i{
     font-weight: 300;
     font-style: normal;
     letter-spacing: 0.5px;
+}
+
+.text-sm{
+    font-size: 0.6em;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.strong{
+    font-weight: 700;
 }

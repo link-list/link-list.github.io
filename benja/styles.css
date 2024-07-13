@@ -7,7 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     background: rgb(30,3,46);
-    background: linear-gradient(180deg, rgba(30,3,46,0.98) 10%, rgba(72,27,71,0.9) 55%, rgba(131,51,112,0.9) 80%, rgba(255,52,170,0.8) 100%);
+    background: linear-gradient(180deg, #2D2E81 9%, #699FD7 100%);
 
 }
 
@@ -99,7 +99,7 @@ body{
 .capsule{
     height: 60px;
     border-radius: 100px;
-    background-color: rgb(13, 1, 23);
+    background-color: #1d1e4b;
     max-width: 400px;
     width: 100%;
     text-align: center;
@@ -137,7 +137,7 @@ body{
     top: -50px;
     right: -50px;
     background: rgb(15,0,19);
-    background: radial-gradient(circle, rgba(15,0,19,0.8) 0%, rgba(55,21,52,1) 50%, rgb(119, 63, 107) 100%);
+    background: radial-gradient(circle, #222252 0%, #33337a 50%, #8f8fda 100%);
     width: 125px;
     height: 125px;
     border-radius: 100%;
